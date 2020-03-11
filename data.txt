@@ -1,0 +1,6 @@
+- path: patent-taxonomy
+  name: patent-taxonomy
+  rows: 94335
+  cols: 34
+  description: Taxonomic record for patent documents involving Antarctica
+  type: table
