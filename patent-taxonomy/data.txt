@@ -1,5 +1,5 @@
 path:
-- https://github.com/poldham/antarcticrdata/releases/download/patent-taxonomy-5803b3c/data.csv
+- https://github.com/poldham/antarcticrdata/releases/download/patent-taxonomy-217a61a/data.csv
 - data.rds
 rows: 94335
 cols: 34
@@ -38,5 +38,6 @@ columns:
   has_locality: logical
   patent_section: character
   antarctic_species: logical
-description: Taxonomic record for patent documents involving Antarctica
+description: Taxonomic record for patent documents involving Antarctica and the Southern
+  Ocean
 type: table
