@@ -1,0 +1,26 @@
+path:
+- https://github.com/poldham/antarcticrdata/releases/download/affiliations-d4a4727/data.csv
+- data.rds
+rows: 403517
+cols: 17
+columns:
+  paperid: numeric
+  authorid: numeric
+  affiliationid: numeric
+  originalaffiliation: character
+  normalizedname: character
+  displayname: character
+  grid_id: character
+  lat: numeric
+  lng: numeric
+  city: character
+  state: character
+  state_code: character
+  country: character
+  country_code: character
+  geonames_city_id: numeric
+  interpreted_original_match: logical
+  interpreted: logical
+description: Author affiliations for scientific literature for the Antarctic and Southern
+  Ocean sources from Microsoft Academic Graph, January 2019
+type: table
