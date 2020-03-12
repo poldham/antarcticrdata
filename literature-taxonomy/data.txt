@@ -1,0 +1,45 @@
+path:
+- data.csv
+- data.rds
+rows: 68192
+cols: 36
+columns:
+  doc_id: character
+  paperid: character
+  lens_id: character
+  text: character
+  text_edited: character
+  root_text: character
+  taxonomic: logical
+  term: character
+  term_edited: character
+  type: character
+  match: character
+  multiple_matches: logical
+  uri: character
+  kingdom: character
+  kingdom_id: numeric
+  phylum: character
+  phylum_id: numeric
+  class: character
+  class_id: numeric
+  family: character
+  family_id: numeric
+  genus: character
+  genus_id: numeric
+  species: character
+  species_id: numeric
+  query: numeric
+  ids: numeric
+  actual_search: character
+  literature: logical
+  worms: logical
+  search_term: character
+  cleaned_gbif: logical
+  fossil: logical
+  occurrence_count: numeric
+  has_locality: logical
+  antarctic_species: logical
+description: Taxonomic record for scientific literature involving Antarctica and Southern
+  Ocean
+type: table
