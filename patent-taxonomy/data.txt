@@ -1,0 +1,43 @@
+path:
+- https://github.com/poldham/antarcticrdata/releases/download/patent-taxonomy-217a61a/data.csv
+- data.rds
+rows: 94335
+cols: 34
+columns:
+  lens_id: character
+  doc_id: character
+  text: character
+  root_text: logical
+  taxonomic: logical
+  term: character
+  term_edited: logical
+  type: character
+  match: character
+  multiple_matches: logical
+  uri: character
+  kingdom: character
+  kingdom_id: numeric
+  phylum: character
+  phylum_id: numeric
+  class: character
+  class_id: numeric
+  family: character
+  family_id: numeric
+  genus: character
+  genus_id: numeric
+  species: character
+  species_id: numeric
+  query: numeric
+  ids: numeric
+  actual_search: logical
+  patent: logical
+  worms: logical
+  cleaned_gbif: logical
+  fossil: logical
+  occurrence_count: numeric
+  has_locality: logical
+  patent_section: character
+  antarctic_species: logical
+description: Taxonomic record for patent documents involving Antarctica and the Southern
+  Ocean
+type: table

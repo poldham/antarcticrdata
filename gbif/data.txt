@@ -1,0 +1,67 @@
+path:
+- https://github.com/poldham/antarcticrdata/releases/download/gbif-ef52a03/data.csv
+- https://github.com/poldham/antarcticrdata/releases/download/gbif-ef52a03/data.rds
+rows: 1280039
+cols: 57
+columns:
+  gbif_id: numeric
+  dataset_key: character
+  occurrence_id: character
+  kingdom: character
+  phylum: character
+  class: character
+  order: character
+  family: character
+  genus: character
+  species: character
+  infraspecific_epithet: character
+  taxon_rank: character
+  scientific_name: character
+  country_code: character
+  locality: character
+  publishing_org_key: character
+  decimal_latitude: numeric
+  decimal_longitude: numeric
+  coordinate_uncertainty_in_meters: numeric
+  coordinate_precision: logical
+  elevation: numeric
+  elevation_accuracy: numeric
+  depth: numeric
+  depth_accuracy: numeric
+  event_date: POSIXct
+  day: numeric
+  month: numeric
+  year: numeric
+  taxon_key: numeric
+  species_key: numeric
+  basis_of_record: character
+  institution_code: character
+  collection_code: character
+  catalog_number: character
+  record_number: character
+  identified_by: character
+  date_identified: POSIXct
+  license: character
+  rights_holder: character
+  recorded_by: character
+  type_status: character
+  establishment_means: character
+  last_interpreted: POSIXct
+  media_type: character
+  issue: character
+  lit_pat: logical
+  lit: logical
+  patent: logical
+  dup_occid: logical
+  clean_coordinates: logical
+  antabif: logical
+  singleton: logical
+  sixty_south: logical
+  fossil: logical
+  scar_place: logical
+  cleaned_gbif: logical
+  occurrence_count: numeric
+description: |-
+  Taxonomic occurrence records for Antarctica and the Southern Ocean based on validated locality information from the Global Biodiversity Information Facility for country AQ and
+            a second set for latitude 60 South and below that lack geospatial issues. If using this dataset please use the provided citation.
+type: table

@@ -1,0 +1,43 @@
+- path: patent-taxonomy
+  name: patent-taxonomy
+  rows: 94335
+  cols: 34
+  description: Taxonomic record for patent documents involving Antarctica and the
+    Southern Ocean
+  type: table
+- path: literature-taxonomy
+  name: literature-taxonomy
+  rows: 68192
+  cols: 36
+  description: Taxonomic record for scientific literature involving Antarctica and
+    Southern Ocean
+  type: table
+- path: affiliations
+  name: affiliations
+  rows: 403517
+  cols: 17
+  description: Author affiliations for scientific literature for the Antarctic and
+    Southern Ocean sources from Microsoft Academic Graph, January 2019
+  type: table
+- path: authors
+  name: authors
+  rows: 553321
+  cols: 12
+  description: Authors table for scientific literature for the Antarctic and Southern
+    Ocean sourced from Microsoft Academic Graph, January 2019
+  type: table
+- path: gbif
+  name: gbif
+  rows: 1280039
+  cols: 57
+  description: |-
+    Taxonomic occurrence records for Antarctica and the Southern Ocean based on validated locality information from the Global Biodiversity Information Facility for country AQ and
+              a second set for latitude 60 South and below that lack geospatial issues. If using this dataset please use the provided citation.
+  type: table
+- path: literature
+  name: literature
+  rows: 150401
+  cols: 53
+  description: Scientific literature involving Antarctica and Southern Ocean from
+    the Lens Scholarly database between 1820 and May 2019
+  type: table
