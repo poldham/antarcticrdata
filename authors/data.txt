@@ -1,0 +1,21 @@
+path:
+- https://github.com/poldham/antarcticrdata/releases/download/authors-9052cf4/data.csv
+- data.rds
+rows: 553321
+cols: 12
+columns:
+  paperid: numeric
+  authorid: numeric
+  affiliationid: numeric
+  authorsequencenumber: numeric
+  originalaffiliation: character
+  authors_rankno: numeric
+  authors_normalizedname: character
+  authors_displayname: character
+  authors_lastknownaffiliationid: numeric
+  authors_papercount: numeric
+  authors_citationcount: numeric
+  authors_createdate: POSIXct
+description: Authors table for scientific literature for the Antarctic and Southern
+  Ocean sourced from Microsoft Academic Graph, January 2019
+type: table
