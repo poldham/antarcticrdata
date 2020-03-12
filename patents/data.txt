@@ -1,0 +1,62 @@
+path:
+- https://github.com/poldham/antarcticrdata/releases/download/patents-be7e3d4/data.csv
+- https://github.com/poldham/antarcticrdata/releases/download/patents-be7e3d4/data.rds
+rows: 150401
+cols: 53
+columns:
+  lens_id: character
+  languages: character
+  journal_country: character
+  issn: character
+  publisher: character
+  source_title: character
+  title: character
+  fields_of_study: character
+  date_published: Date
+  publication_year: numeric
+  publication_type: character
+  publication_supplementary_type: character
+  keywords: character
+  funding: character
+  issue_number: character
+  start_page: character
+  end_page: character
+  authors: character
+  abstract: character
+  volume: character
+  mesh_terms: character
+  chemicals: character
+  source_urls: character
+  patent_citation_count: numeric
+  pmid: character
+  doi: character
+  microsoft_academic_id: character
+  pmcid: character
+  references: character
+  scholarly_citation_count: numeric
+  paperid: numeric
+  metadata: logical
+  acidification: logical
+  arctic: logical
+  biodiversity: logical
+  bioprospecting: logical
+  climate: logical
+  birds: logical
+  candida_antarctica: logical
+  ecosystem_services: logical
+  innovation: logical
+  krill: logical
+  mammal: logical
+  penguin: logical
+  planets: logical
+  seal: logical
+  southern_ocean: logical
+  south_pole: logical
+  whale: logical
+  core_only: logical
+  taxonomic_name: logical
+  antarctic_species: logical
+  occurrence_sum: numeric
+description: Patent literature involving Antarctica and the Southern Ocean from the
+  Lens Patent database until May 2019
+type: table
