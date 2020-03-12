@@ -19,3 +19,10 @@
   description: Author affiliations for scientific literature for the Antarctic and
     Southern Ocean sources from Microsoft Academic Graph, January 2019
   type: table
+- path: authors
+  name: authors
+  rows: 553321
+  cols: 12
+  description: Authors table for scientific literature for the Antarctic and Southern
+    Ocean sourced from Microsoft Academic Graph, January 2019
+  type: table
