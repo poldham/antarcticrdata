@@ -5,3 +5,10 @@
   description: Taxonomic record for patent documents involving Antarctica and the
     Southern Ocean
   type: table
+- path: literature-taxonomy
+  name: literature-taxonomy
+  rows: 68192
+  cols: 36
+  description: Taxonomic record for scientific literature involving Antarctica and
+    Southern Ocean
+  type: table
