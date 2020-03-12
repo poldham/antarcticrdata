@@ -2,5 +2,6 @@
   name: patent-taxonomy
   rows: 94335
   cols: 34
-  description: Taxonomic record for patent documents involving Antarctica
+  description: Taxonomic record for patent documents involving Antarctica and the
+    Southern Ocean
   type: table
