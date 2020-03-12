@@ -36,11 +36,8 @@
   type: table
 - path: literature
   name: literature
-  rows: 150401
-  cols: 53
-  description: Scientific literature involving Antarctica and Southern Ocean from
-    the Lens Scholarly database between 1820 and May 2019
-  type: table
+  description: Scientific literature for the Antarctic and Southern Ocean
+  type: default
 - path: patents
   name: patents
   rows: 150401
