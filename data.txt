@@ -12,3 +12,10 @@
   description: Taxonomic record for scientific literature involving Antarctica and
     Southern Ocean
   type: table
+- path: affiliations
+  name: affiliations
+  rows: 403517
+  cols: 17
+  description: Author affiliations for scientific literature for the Antarctic and
+    Southern Ocean sources from Microsoft Academic Graph, January 2019
+  type: table
